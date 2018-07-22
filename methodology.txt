@@ -1,0 +1,8 @@
+Algorithms - 
+
+1 -  applying edge detection on the images (edges are assumed to contain the most important information in images) as a feature selection step and we confined predictions to the boxes around keypoints to get rid of additional time consuming calculations. We can use canny filter for edge detection.
+
+2- applying PCA to retrieve the first few singular vectors that are assumed to contain the most important characteristics in training set
+images.
+
+PCA - Principal component analysis is a technique for feature extraction — so it combines our input variables in a specific way, then we can drop the “least important” variables while still retaining the most valuable parts of all of the variables! As an added benefit, each of the “new” variables after PCA are all independent of one another. 
